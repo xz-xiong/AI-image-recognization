@@ -1,5 +1,6 @@
 # AI-image-recognization use Keras
 
+
 This is a project from IBM AI course training program.
 
 The jupyter notebook in the project is intend to build an image classifier using the VGG16 pre-trained model and compare its performance with the ResNet50 pre-trained model.
@@ -25,3 +26,6 @@ The jupyter notebook in the project is intend to build an image classifier using
 ### 3 Prediction
 
 Use the predict_generator method to predict the class of the images in the test data, by passing the test data ImageDataGenerator instance defined in the previous part as an argument. 
+
+
+#### this project demonstrate also the time costing for train a model. Here deepnote is used, which can provide powerful GPU K80 option free. It shorten the training time to around 15 min from 8 Hours (IBM waston platform).
